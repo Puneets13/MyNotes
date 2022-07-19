@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/drawable/rectangle_bg.xml" value="0.225" />
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/drawable/rectangle_f.xml" value="0.2545" />
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/drawable/rectangle_frame.xml" value="0.225" />
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/drawable/search_bg.xml" value="0.225" />
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/layout/activity_notes_taker.xml" value="0.264" />
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/layout/notes_list.xml" value="0.264" />
+        <entry key="..\:/Users/HP/MyNotes/app/src/main/res/menu/popupmenu.xml" value="0.1574074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

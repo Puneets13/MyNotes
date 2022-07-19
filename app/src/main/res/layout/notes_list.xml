@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notes_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_frame"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_marginVertical="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="8dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewPin"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/pin" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView_Notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:text="notes"/>
+        <TextView
+            android:id="@+id/textView_Dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:text="Date"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
